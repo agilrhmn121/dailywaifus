@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="card-body">
               <div class="text-center mb-3">
                 <i class="bi bi-person-circle h1 display-4"></i>
-                <p>Gathering wives</p>
+                <p>Raja karbit</p>
                 <hr />
               </div>
               <?php

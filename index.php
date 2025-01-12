@@ -145,25 +145,32 @@ include "koneksi.php";
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Gathering wives</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav ms-auto text-dark">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#article">Article</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#gallery">Gallery</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-nav">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">My Daily Journal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-auto text-dark">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#article">Article</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schedule">Schedule</a>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Login</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-nav">
                 <button id="darkModeBtn" class="btn btn-secondary me-2">Dark</button>
                 <button id="lightModeBtn" class="btn btn-light">Light</button>
             </div>
@@ -171,8 +178,13 @@ include "koneksi.php";
                 <input type="text" class="search-box" placeholder="Search...">
                 <button class="btn btn-secondary"><i class="bi bi-search"></i></button>
             </div>
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Search...">
+            <button class="btn btn-secondary"><i class="bi bi-search"></i></button>
         </div>
-    </nav>
+    </div>
+</nav>
+
 
     <!-- Hero Section -->
     <section class="hero text-sm-start">

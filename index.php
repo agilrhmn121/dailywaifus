@@ -176,10 +176,6 @@ include "koneksi.php";
                 <input type="text" class="search-box" placeholder="Search...">
                 <button class="btn btn-secondary"><i class="bi bi-search"></i></button>
             </div>
-        <div class="search-container">
-            <input type="text" class="search-box" placeholder="Search...">
-            <button class="btn btn-secondary"><i class="bi bi-search"></i></button>
-        </div>
     </div>
 </nav>
 

@@ -161,9 +161,7 @@ include "koneksi.php";
                 <li class="nav-item">
                     <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#schedule">Schedule</a>
-                </li>
+    
         
                 <li class="nav-item">
                     <a class="nav-link" href="login.php">Login</a>
